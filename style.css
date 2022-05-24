@@ -8,4 +8,5 @@ body {
   width: 200px;
   height: 200px;
   background-color: #8690FF;
+  border-radius: 20% 20% 20% 20%;
 }
