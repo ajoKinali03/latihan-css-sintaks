@@ -2,11 +2,34 @@ body {
   background-color: white;
 }
 
-.box{
-  margin: auto;
-  margin-top: 200px;
+.box1{
+  position: absolute;
+  top: 200px;
+  left: 100px;
   width: 200px;
   height: 200px;
   background-color: #8690FF;
   border-radius: 20% 20% 20% 20%;
 }
+
+.box2 {
+  position: absolute;
+  top: 210px;
+  left: 110px;
+  width: 200px;
+  height: 200px;
+  background-color: #8690FF;
+  border-radius: 20% 20% 20% 20%;
+  opacity: .7;
+}
+.box3 {
+  position: absolute;
+  top: 220px;
+  left: 120px;
+  width: 200px;
+  height: 200px;
+  background-color: #8690FF;
+  border-radius: 20% 20% 20% 20%;
+  opacity: 0.6;
+}
+
