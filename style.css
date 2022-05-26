@@ -23,7 +23,7 @@ body {
   height: 200px;
   border-radius: 20% 20% 20% 20%;
   background-color: rgba(134, 144, 255, .7);
-  box-shadow: 3px 3px 4px rgba(0,0,0, .5);
+  box-shadow: 3px 3px 4px rgba(0,0,0, .4);
 }
 .box3 {
   position: absolute;
