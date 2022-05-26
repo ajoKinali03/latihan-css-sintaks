@@ -14,6 +14,15 @@ body {
   box-shadow: 3px 3px 6px rgba(0,0,0, .4);
 }
 
+.box1 > p{
+  font-size: 30px;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 2px 2px rgba(0,0,0, .7);
+}
+
+
 .box2 {
   position: absolute;
   z-index: 1;

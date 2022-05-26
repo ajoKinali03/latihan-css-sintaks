@@ -33,6 +33,6 @@ box1.addEventListener('click', function(){
   },5);
   setTimeout(function(){
     clearInterval(inter);
-  }, 500);
+  }, 1000);
   
 });
