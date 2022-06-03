@@ -2,11 +2,13 @@ body {
   background-color: white;
 }
 
+.container{
+  margin: 200px 120px;
+}
+
 .box1{
   position: absolute;
   z-index: 2;
-  top: 200px;
-  left: 100px;
   width: 200px;
   height: 200px;
   background-color: #8690FF;
@@ -17,8 +19,6 @@ body {
 .box2{
   position: absolute;
   z-index: 1;
-  top: 200px;
-  left: 100px;
   width: 200px;
   height: 200px;
   background-color: #8690FF;
@@ -29,17 +29,15 @@ body {
 .box3{
   position: absolute;
   z-index: 0;
-  top: 200px;
-  left: 100px;
   width: 200px;
   height: 200px;
   background-color: #8690FF;
   border-radius: 20% 20% 20% 20%;
   box-shadow: 3px 3px 6px rgba(0,0,0, .4);
 }
-
-.box2{
-  transition: 0.2s;
+/* transition */
+/* .box2{
+  transition: 0.2s ease-out 0.5s;
 }
 
 .container:hover .box2{
@@ -47,9 +45,17 @@ body {
 }
 
 .box3{
-  transition: 0.2s;
-}
+  transition: background-color 1s linear 1.5s, transform 0.2s ease-out 1s;
+} */
+
+/* animation */
 
 .container:hover .box3{
+  /* transiton */
+  /* transform: translate(20px, 20px);
+  background-color: white; */
+
+  /* animation */
   transform: translate(20px, 20px);
+  
 }
