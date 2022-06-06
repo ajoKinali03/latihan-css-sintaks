@@ -23,7 +23,8 @@ body {
   height: 200px;
   background-color: #8690FF;
   border-radius: 20% 20% 20% 20%;
-  box-shadow: 3px 3px 6px rgba(0,0,0, .4);
+  /* box-shadow: 3px 3px 6px rgba(0,0,0, .4); */
+  /* animation: box2 1.5s ease-out .3s infinite; */
 }
 
 .box3{
@@ -33,7 +34,8 @@ body {
   height: 200px;
   background-color: #8690FF;
   border-radius: 20% 20% 20% 20%;
-  box-shadow: 3px 3px 6px rgba(0,0,0, .4);
+  /* box-shadow: 3px 3px 6px rgba(0,0,0, .4); */
+  /* animation: box3 1.5s ease-out infinite; */
 }
 /* transition */
 /* .box2{
@@ -48,19 +50,35 @@ body {
   transition: background-color 1s linear 1.5s, transform 0.2s ease-out 1s;
 } */
 
+
+/* rencana animasi1: membuat box berdenyut di mulai dengan box paling akhir dan menghilang ketika ukrannya membesar dan di ikuti oleh box sebelumnya dengan kodisi yang sama*/
+
+/* rencan animasi2: membuat box3 dan box2 bergerak keluar dari box1 sedikit dan setelah itu memutari box1 360deg */
+
 /* animation */
-@keyframes test {
-  
+@keyframes box3 {
+  100%{
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
 
+@keyframes box2 {
+  100%{
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 
-
-.container:hover .box3{
+.container:active .box3{
   /* transiton */
   /* transform: translate(20px, 20px);
   background-color: white; */
 
   /* animation */
-  transform: translate(20px, 20px);
-  
+  animation: box3 1.5s ease-out infinite;
+}
+
+.container:active .box2{
+  animation: box2 1.5s ease-out infinite .3s; 
 }
