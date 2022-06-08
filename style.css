@@ -23,6 +23,36 @@ body {
   height: 200px;
   background-color: #8690FF;
   border-radius: 20% 20% 20% 20%;
-  /* box-shadow: 3px 3px 6px rgba(0,0,0, .4); */
-  /* animation: box2 1.5s ease-out .3s infinite; */
+}
+
+
+@keyframes test{
+  10%{
+    transform: translate(100px, 0);
+  }
+  20%{
+    transform: translate(100px, 50px);
+  }
+  30%{
+    transform: translate(100px, 100px);
+  }
+  40%{
+    transform: translate(50px, 100px);
+  }
+  50%{
+    transform: translate(-100px, 100px);
+  }
+  60%{
+    transform: translate(-100px, -100px);
+  }
+  70%{
+    transform: translate(100px, -100px);
+  }
+  80%{
+    transform: translate(100px, 0);
+  }
+}
+
+.container:hover .box2 {
+  animation: test 5s 1s infinite backwards alternate;
 }
