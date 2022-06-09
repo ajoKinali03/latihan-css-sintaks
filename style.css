@@ -27,32 +27,32 @@ body {
 
 
 @keyframes test{
+  0%{
+    transform: translate(0, 0);
+  }
   10%{
     transform: translate(100px, 0);
   }
   20%{
-    transform: translate(100px, 50px);
-  }
-  30%{
     transform: translate(100px, 100px);
   }
-  40%{
-    transform: translate(50px, 100px);
-  }
-  50%{
+  30%{
     transform: translate(-100px, 100px);
   }
-  60%{
+  40%{
     transform: translate(-100px, -100px);
   }
-  70%{
+  50%{
     transform: translate(100px, -100px);
   }
-  80%{
+  60%{
     transform: translate(100px, 0);
+  }
+  70%{
+    transform: translate(0, 0);
   }
 }
 
 .container:hover .box2 {
-  animation: test 5s 1s infinite backwards alternate;
+  animation: test 5s infinite;
 }
