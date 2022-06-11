@@ -2,72 +2,48 @@ body {
   background-color: white;
 }
 
-.container{
-  height: 200px;
-  padding: 2px;
-  margin: 10px;
-  box-sizing: border-box;
-  border: 5px solid black;
+.parent-container{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  padding: 2px;
+  box-sizing: border-box;
+  margin: 1px;
+  width: 100%;
+  border: 3px solid black;
+  display: flex;
+  flex-flow:row wrap;
   justify-content: space-evenly;
+}
+
+.container div{
+  background-color: salmon;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .container div.box1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2px;
-  height: 150px;
-  width: 100px;
-  background-color: rgb(255, 124, 124);
+  order: 3;
 }
 
-.container div.box2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2px;
-  height: 90px;
-  width: 100px;
-  background-color: rgb(255, 124, 124);
+.container div.box2 {
+  order: 1;
 }
 
-.container div.box3{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2px;
-  height: 110px;
-  width: 100px;
-  background-color: rgb(255, 124, 124);
+.container div.box3 {
+  order: 2;
 }
 
 .container div p{
   font-size: 40px;
-  text-align: center;
   color: rgb(255, 177, 177);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
