@@ -9,6 +9,8 @@ body {
 }
 
 .container{
+  padding: 2px;
+  box-sizing: border-box;
   margin: 1px;
   width: 100%;
   border: 3px solid black;
@@ -42,8 +44,6 @@ body {
   font-size: 40px;
   color: white;
 }
-
-
 
 
 

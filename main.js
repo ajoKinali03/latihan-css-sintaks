@@ -3,4 +3,3 @@ setInterval(function(){
   
   parentContr.style.height = window.innerHeight + 'px';
 }, 50);
-
