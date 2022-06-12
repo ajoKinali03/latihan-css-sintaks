@@ -11,3 +11,18 @@
 
 !note: properti ini biasa di gunakan pada web responsif
 ~~~ selesai ~~~
+
+
+
+
+~~~ outline tidak sama degan border ~~~
+==> berfungsi memberikan garis luar atau garis tepi pada sebuah konten dengan   
+    bentuk mirip dengan border
+--> cara kerja: outline != border -> outline secara fisik memiliki bentuk dan 
+                                     nilai yang sama dengan border namun meimiliki cara kerja yang berdeda, out line tidak memakan tempat dan tidak termasuk dalam box model(margin, border, padding, konten)
+
+!note: properti ini sanganat bagus di gunakan untuk penanda hover dan sbg-nya.
+~~~ selesai ~~~
+
+
+
