@@ -1,3 +1,4 @@
+
 div{
   height: 100px;
   width: 100px;
@@ -5,6 +6,8 @@ div{
   margin: 1px;
 }
 
-div.boxB>p:hover{
-  outline: black solid 2px;
+div.boxA{
+  position: sticky;
+  top: 0;
+  left: 0;
 }

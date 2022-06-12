@@ -26,3 +26,11 @@
 
 
 
+~~~ position: sticky; ~~~
+==> position ini berfungsi untuk merubah konten dengan properti position den 
+    nilai campuran antara nilai fixed dan relative
+--> cara kerja: sticky = anak kawin silang -> konten yang di beri nilai sticky 
+                                              akan terlihat seperti konten bernilai relative namun apabila konten tersebut keluar telah mencai batas web maka konten tersebut akan menyakut pada tepi web dan akan terlihat seperti fixed.
+
+!note: nilai ini bagus di gunaka unutk konten penting atau suatu penanda.
+~~~ selesai ~~~ 
