@@ -1,0 +1,13 @@
+-------latihan semua sintaks css yang belum di pelajari---------
+
+~~~ max-width/max-height & min-width/min-height ~~~
+==> berfungsi memberi nilai lebar tinggi denan ketentuan maksimal dan minimal
+--> cara kerja: nilai max -> apabila pembungkus lebih kecil dari konten(cth: 700px) maka
+                             konten(cth: 700px) akan mengikuti ukuran koten(cth: 700px) tsb dan tidak menambah kan scrolbar horizontal.
+                             dan apabila pembungkus lebih besar dari konten(cth: 700px) maka konten(cth: 700px) tidak mengikuti konten(cth: 700px) karena ukuran max konten(cth: 700px)(cth: 700px). juga apabila konten(cth: 700px) ini juga memili koten(child-2) di dalam nya maka child-2 tsb akan mingikuti konten(cth: 700px) pertama(child-1) 
+
+                niali min -> nilai min memiliki nilai atau sifat yang berlawanan  
+                             dari max yaitu apabila pembungkus lebih kecil dari konten(cth: 700px) maka konten(cth: 700px) akan tetap pada ukran nya dan browser akan menambahkan scrol bar horizontal dan apabila pembungkus lebih besar dari konten(cth: 700px) maka konten(cth: 700px) tersebut akan mengikuti ukuran dari pembungkus tersebut. juga apabila konten(child-1) memiliki konten(child-2) di dalam nya maka konten(child-1) pertama akan mengikuti konten(child-2) yang ke dua.
+
+!note: properti ini biasa di gunakan pada web responsif
+~~~ selesai ~~~
