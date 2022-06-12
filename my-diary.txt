@@ -34,3 +34,7 @@
 
 !note: nilai ini bagus di gunaka unutk konten penting atau suatu penanda.
 ~~~ selesai ~~~ 
+
+
+
+~~~ pdkt dengan overflow ~~~
