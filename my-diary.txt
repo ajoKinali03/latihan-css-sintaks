@@ -38,3 +38,15 @@
 
 
 ~~~ pdkt dengan overflow ~~~
+=> overflow berfungsi untuk menyembunyikan konten yang berlebih dari sebuah penampung atau
+   pembungkus(container), overflow bernilai vesible(nilai standar overflow), hidden(konten akan sepneuhnya di sembunyikan dan akan di tampilkan sesuai ukuran dari pembungks), scroll(nilai ini akan menyembunyikan konten namun konten masih bisa di lihat keselurauhan nya dengan me scrol konten tersebut), auto(nilai ini gabungan dari hidden dan scroll, scroll akan di berikan apabila di perlukan saja). overflow juga terbagi menjadi dua yaitu:
+        \\overflow-x: yaitu konten akan di sembunyikan searah sumbu x atau mendatar
+        \\overFlow-y: yaitu konten akan di sembunyikan searah sumbu y atau menurun
+--> cara kerja: yaitu -> apabla sebuah pembungkus memiliki ukuran tertentu dan konten memiliki                            jumlah yang banyak atau memiliki ukuran yang melebihi dari pembungkus tsb                        maka koten tsb akan di sembunyikan maupun arah nya ke sumbu x atau sumbu y
+
+!note: properti ini sangat di anjurkan di beri nilai auto karna sangat memudahkan dan di gunakan        untuk konten yang memiliki jumlah atau ukuran yang tidak pasti
+~~~ selesai ~~~
+
+
+
+

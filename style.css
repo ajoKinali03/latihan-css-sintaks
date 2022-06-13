@@ -1,13 +1,15 @@
 
-div{
+div.boxA{
   height: 100px;
-  width: 100px;
+  width: 300px;
   background-color: salmon;
   margin: 1px;
+  overflow-x: scroll;
 }
 
-div.boxA{
-  position: sticky;
-  top: 0;
-  left: 0;
+div.boxA div{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
