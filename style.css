@@ -1,15 +1,3 @@
-
-div.boxA{
-  height: 100px;
-  width: 300px;
-  background-color: salmon;
-  margin: 1px;
-  overflow-x: scroll;
-}
-
-div.boxA div{
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background-color: red;
+div.boxA>p, div.boxB~p{
+  background-color: blue;
 }
