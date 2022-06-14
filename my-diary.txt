@@ -72,3 +72,9 @@
 !note: untuk menggunkan specificity(spesifikasi penyeleksian tag elemen) pada suatu tag elemen bersaman dengan id atau class nya maka
        penulisan code nya harus berdempetan( div.class/#id ) jika tidak css akan menganggap itu sebagai keturunan dari tag element tersebut.
 ~~~ selesai ~~~
+
+
+
+
+
+~~~ menggali tentang apa itu sudo calss dan cara menggunakan nya ~~~
