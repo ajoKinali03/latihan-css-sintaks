@@ -52,3 +52,29 @@
 
 
 ~~~ kenapa harus Combinators? ~~~
+=> combinators berfungsi untuk mengkombinasikan penyeleksian sebuha elemen, misal nya anda ingin menyeleksi suatu elemen dan juga 
+   ingin menyeleksi elemen setelah nya(saudara nya) maka combinators di perlukan unutk menyeleksi nya sehingga akan menghemat barisan code dan mempercepat pekerjaan. sebuah combinators merpukan sebuah tanda yaitu( \,\ \spasi\ \>\ \+\ \~\). contoh salah satu penggunaan div.clss + p{} 
+-->cara kerja: tanda\,\ -> yaitu berfungsi unutk menggabungkan atau menyatukan dari semua tag elemen maupun itu anak dari saudara nya 
+                           atau cucu dari saudaranya dalam style css yang sama.
+
+               tanda\spasi\ -> yaitu berfungi untuk menyeleksi seluruh keturunan dari parent(pembunguks) atau semua koten yang ada di 
+                               dalam parent maupun itu cucu-nya(konten di dalam konten) dengan tag elemen yang sama.
+
+               tanda\>\ -> yaitu berfungsi untuk menyeleksi suatu tag element yang merupakan anak dari parent(pembungkus-nya, dan   
+                           tidak menyeleksi cucu(konten di dalam konten dari sebuah pembungkus<parent-nya>)
+
+               tanda\+\ -> yaitu berfungsi untuk menyeleksi saudara terdekat nya dari sebuah tag element atau tag element setelah nya
+                           tanda ini hanya berlaku unutk tag element setalah bukan sebelumnya
+
+               tanda\~\ -> yaitu berfungsi untuk menyeleksi seluruh saudara nya dari sebuah tag element atau seluruh tag element 
+                           setelah nya, selama tag elemen yang di cari sama.
+
+!note: untuk menggunkan specificity(spesifikasi penyeleksian tag elemen) pada suatu tag elemen bersaman dengan id atau class nya maka
+       penulisan code nya harus berdempetan( div.class/#id ) jika tidak css akan menganggap itu sebagai keturunan dari tag element tersebut.
+~~~ selesai ~~~
+
+
+
+
+
+~~~ menggali tentang apa itu sudo calss dan cara menggunakan nya ~~~
