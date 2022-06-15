@@ -102,3 +102,7 @@
 
 !note: sudo element kemungkinan hanya bisa merubah teks.
 ~~~ selesai ~~~
+
+
+
+~~~ cara membuat navigation bar ~~~
