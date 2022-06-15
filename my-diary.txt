@@ -87,3 +87,18 @@
 ~~~ selesai ~~~
 
 ~~~ cara kerja dari saudara sudo class yaitu sudo element ~~~
+=> tak jauh beda dari saudara-nya sudo element juga berfungsi untuk 
+   memberikan style dengan kondisi tertentu namun ini akan melibtkan element langsung dari tag html seperti menambah kan teks pada sebelum atau sesudah tag p atau tag lain, merubah warna teks pada huruf pertama atau satu baris dari kalimat
+--> cara kerja: ::after-> memberikan teks setelah tag yang di berikan 
+                          ::after
+                ::before-> memberikan teks sebelum tag yang di berika
+                           ::before
+                ::first-letter-> memberikan style hanya pada huruf pertama  
+                                 pada teks
+                ::first-line->memberikan style hanya pada baris pertama pada 
+                             teks
+                ::selection-> memberikan style pada saat teks blog atau di 
+                              sleksi
+
+!note: sudo element kemungkinan hanya bisa merubah teks.
+~~~ selesai ~~~

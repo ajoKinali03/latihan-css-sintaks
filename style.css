@@ -1,25 +1,14 @@
-form input{
-  display: block;
-  margin: 4px;
+*::selection{
+ color: red;
+ background-color: black;
+}
+div::after{
+  content: "ini dibuat dengan ::after";
 }
 
-p:active{
-  color: red;
-}
 
-input:focus{
-  transform: translateX(40px);
-  transition: .4s;
-}
-input:focus{
-  transform: translateX(40px);
-  transition: .4s;
-}
-
-input#number:in-range{
-  color: green;
-}
-
-input#number:out-of-range{
-  color: red;
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
