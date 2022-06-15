@@ -78,3 +78,12 @@
 
 
 ~~~ menggali tentang apa itu sudo calss dan cara menggunakan nya ~~~
+=> psudo class adalah sebuah class semu yang akan memberikan style dengan   
+   kondisi tertentu
+--> cara kerja: none;
+
+!note: psudo class memiliki banyak macam dan saya malas membuat dan menjelas 
+       kan semua nya di sini silahkan kunjungi  www.w3schools.com/css/css_pseudo_classes.asp untuk mempelajarinya.
+~~~ selesai ~~~
+
+~~~ cara kerja dari saudara sudo class yaitu sudo element ~~~

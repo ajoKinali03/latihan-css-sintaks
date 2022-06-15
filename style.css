@@ -1,3 +1,25 @@
-div.boxA>p, div.boxB~p{
-  background-color: blue;
+form input{
+  display: block;
+  margin: 4px;
+}
+
+p:active{
+  color: red;
+}
+
+input:focus{
+  transform: translateX(40px);
+  transition: .4s;
+}
+input:focus{
+  transform: translateX(40px);
+  transition: .4s;
+}
+
+input#number:in-range{
+  color: green;
+}
+
+input#number:out-of-range{
+  color: red;
 }
