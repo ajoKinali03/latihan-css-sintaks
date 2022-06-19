@@ -1,14 +1,18 @@
-*::selection{
- color: red;
- background-color: black;
-}
-div::after{
-  content: "ini dibuat dengan ::after";
+.header{
+  background-color: black;
+  color: red;
+  position: fixed;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
+div.header ul{
+  display: flex;
+}
 
-div{
-  width: 100px;
-  height: 100px;
-  background-color: red;
+div.header>ul>li:link{
+  text-decoration: none;
+  color: red;
 }
