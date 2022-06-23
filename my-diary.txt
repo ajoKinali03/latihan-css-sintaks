@@ -105,4 +105,17 @@
 
 
 
-~~~ cara membuat navigation bar ~~~
+~~~ apo guno counter di css ~~~
+=> counter adalah varibel yang ada pada css berfungsi untuk menghitung dengan urutan 
+   tertentu yang telah di tentukan dengan syarat harus memiliki class atau atribut yang sama dan urutan nya akan di tempat kan pada sebelum isi dari konten atau sesudah nya maka harus menggunaka psudo element ::before dan ::after, cara kerja counter hampir sama dengan menggunakan "for" di javascript dan ini akan menguntukan sekali karena kita tidak perlu membuat script yang tidak di perlukan
+--> cara kerja: counter-reset() -> berfungsi untuk mendeklarasikan variabel counter, 
+                                   properti ini harus di tempat kan pada parent pada suatu content, properti ini memiliki dua value atau nilai yaitu nama variabel dan nilai mulai(berupa angka dan tidak di wajibkan) cth: (myCount 5), dan pada satu properti dapat menempatkan lebih dari satu varibel dengan menambahkan spasi untuk pembeda nya.
+
+                counter-increment() -> berfungsi untuk menaikan atau menurunkan dari   
+                                       suatu nilai, properti ini harus di tempat kan pada style konten yang akan di hitung. properti ini memiliki dua value atau nilai yaitu nama variabel dan value tambah nilai atau kurang( -1 / +1) dan juga berguna untuk melipatkan suatu angka cth: (myCount -1/-5), dan pada satu properti dapat menempatkan lebih dari satu varibel dengan menambahkan spasi untuk pembeda nya.
+
+               content -> berfungsi untuk menamabah konten menggunakan psudo 
+                          element ::before atau ::after dan disini lah akan di isi properrti counter-increment dan counter dan content, cara penulisan content: " string " counter(myCount) " string ";
+
+               counter -> berfungsi untuk memanggil variabel counter yang telah di 
+                          increment dan di tempat kan di dalam properti content cara penulisan dapat di lihat pada cara kerja content di atas.
