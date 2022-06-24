@@ -119,3 +119,19 @@
 
                counter -> berfungsi untuk memanggil variabel counter yang telah di 
                           increment dan di tempat kan di dalam properti content cara penulisan dapat di lihat pada cara kerja content di atas.
+
+!note: conter sangat berguna unutk penomoran atau memberi teks yang sama
+       pada baris tertentu sehingga tidak diperlukan lagi javascript.
+~~~ selesai ~~~
+
+
+
+~~~ ini sangat !important ~~~
+=> !important adalah suatu aturan yang di tempatkan di dalam properti 
+   tertentu setelah value dari properrti tsb cth(properrti: value !important;), apabila suatu properti di beri aturan !important maka style dari properti tersebut tadak bisa di rubah walupun itu hanya menggunakan tag html yang memiliki beban paling ringan dari class dan id, sehingga properti tsb akan lebih dipentingkan walaupun telah di beri style yang sama melalui selector yang berbeda seperti class atau id.
+--> cara kerja: yaitu -> aturan !important akan di berikan pada setelah 
+                         nilai pada properti tertentu sehingga style dari properti tsb tidak dapat di ganggu gugat atau permanen kecuali aturan important nya di hilangkan. 
+
+!note: !important sudah jelas kali dari bahsa nya yaitu penting maka 
+       properti apapun yang di beri importan maka akan di pentingkan dari yang lain.
+~~~ selesai ~~~
