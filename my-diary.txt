@@ -135,3 +135,14 @@
 !note: !important sudah jelas kali dari bahsa nya yaitu penting maka 
        properti apapun yang di beri importan maka akan di pentingkan dari yang lain.
 ~~~ selesai ~~~
+
+
+~~~ :root psudo class yang ajaib ~~~
+=> :root adalah psudo class yan berfungsi untuk memberikan 
+    nilai standar atau nilai dasar yang akan menempel pada pada document html, maka apabila root di buat dan di beri style font tertentu maka apabila kita membuat teks dan tidak memeberi font size maka font size dari root akan di gunakan.
+--> cara kerja: yaitu -> penulisan :root langsung di tuliskan 
+                         pada document css tanpa menggunakan selector, sehingga style apapun yang di berikan pada psudo class :root maka akan menjadi style standar pada laman web tsb.
+
+!note: psudo class :root sangat ampuh untuk style yang 
+       diyakini akan terus di gunakana pada setiap element cth( warna teks, ukuran, dll).
+~~~ selesai ~~~ 
