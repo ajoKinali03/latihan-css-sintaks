@@ -146,3 +146,29 @@
 !note: psudo class :root sangat ampuh untuk style yang 
        diyakini akan terus di gunakana pada setiap element cth( warna teks, ukuran, dll).
 ~~~ selesai ~~~ 
+
+
+~~~ css unit relative length ~~~
+=> css unit panjang relative adalah suatu satuan pada nilai 
+   yang bersifat relative pada sesuatu, cth satuan nya adalah (em, rem, vw, vh, vmin, vmax)
+--> cara kerja: em -> satuan em akan mengambil ukuran 
+                      font-size dengan satuan px cth(10px) sebagai patokan nilai nya setalah itu em akan melipat gandakan nya maka apabila em bernilai 1 cth(1em) maka 1em = 20px. ketika nilai em di berikan kepada teks maka ukuran nya akan di ambil sesui ukuran yang ada pada parent dai element nya jika tidak ada maka akan di lanjut kan ke parent selanjut nya jika masih tidak ada dan telah sampai pada parent terakhir maka ukuran nya akan mengambil nilai default yaitu 16px. atau di berikan pada padding atau margin nilai nya akan berpatokan ke pada elemt itu sendiri jika tidak ada akan mengambil nilai dari parent nya. note: nilai dari em dapat bertambah jika pad element yang sama juga di berikan nilai em
+
+                rem -> satuan rem adalah satuan yang bagus di 
+                       gunakan untuk ukuran dari font karena nilai nya yang tidak dapat di timpa dan cara kerja nya hampir sama dengan em namun bedanya rem hanya kan mengambil nilai patokan nya dari element html atau psudo class :root jika tidak ada maka akan di ambil nilai standar nya(16px).
+
+                vw -> vw adalah nilai lebar dari tampilan web 
+                      (view width), satuan vw memiliki sifat angka yang hampir sama dengan persen jadi penulisan nya jika 1vw sama dengan 1% namun perbedaan nya adalah vw membuat lebar sesuai yang di tampilkan web jika ada element lain yang ada di luar nya maka elemen tsb akan berada di bawah dan hanya bisa di lihat jika di scroll, satuan vw hanya bisa di berikan pada properti width atau lebar dan satuan ini sangat berguna untuk element responsif
+
+                vh -> vh adalah nilai tinggi dari tampilan web 
+                      dan cara kerja nya sama dengan vw namun ini akan bekerja pada properti height.
+
+                vmin -> adalah satuan yang mengambil nilai 
+                        terkecil dari tampilan browser/halaman jika di mobile ini adalah lebar dari mobile tsb dan jika di desktop itu adalah tinggi dari layar desktop tsb atau mudah nya vmin akan mengambil nilai terkecil jika vmin di letakan di width yang lebih besar dari height maka vmin akan mengikuti ukuran dari height sehingga ukuran width tsb tidak memenuhi halaman.
+
+                vmax -> yaitu view maximal dari halaman web 
+                        cara kerjanya hampir sama dengan vmin namun bedanya vmax akan mengambil nilai yang lebih besar lebih besar, cth: jika height di beri nilai vmax dan height lebih besar dari width maka akan normal normal saja tapi apabila height lebih kecil dari width maka satuan vmax akan mengambil ukuran dari width tsb sehingga height akan memiliki scrol bar.
+
+!note: semua satuan di atas adalah satuan relative sehigga 
+       sangat berguna untuk web responsif.
+~~~ selesai ~~~
