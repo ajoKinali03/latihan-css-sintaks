@@ -192,4 +192,10 @@
 
 
 !note: properti bisa menggunakan short hand seperti background: url() no-repeat top left cover;
+~~~ selesai ~~~`
+
+
+~~~ ini adalah tool tips ~~~
+=> tool tips adalah sebuah informasi pada suatu element atau konten, tool tips akan keluar seperti pop up 
+   ketika kita cursor kita tepat berada pada suatu elemen, dan ini sangat berguna untuk mengetahui informasi sederhana namun penting.
 ~~~ selesai ~~~
