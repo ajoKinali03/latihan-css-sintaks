@@ -172,3 +172,24 @@
 !note: semua satuan di atas adalah satuan relative sehigga 
        sangat berguna untuk web responsif.
 ~~~ selesai ~~~
+
+
+
+
+~~~ ini adalah background image bukan color ~~~
+=> background image dari nama nya kita sudah tau kalaw properti ini berguna untuk menjadikan sebuah gambar   
+   menjadi sebuah latar belakang dari sebuah element atau web itu tsb.
+--> cara kerja: background-image -> berfungsi memanggil image dengan value url(lokasi file/nama.png)
+                
+                background-position -> berfuungsi memposisikan gambar dengan value right, left, botton, top 
+                                       atau right botton, left top.
+
+                background-repeat -> berfungsi untuk membuat gambar tsb berulang atau tidak ini sangat 
+                                     berguna untuk gamber pattern atau abstrak jika gambar tsb sebuah objek bisa untuk tidak di ulang, value repeat atau no-repeat.
+
+                background-size -> berfungsi untuk menentukan ukuran dari gambar value nya dapat berupa 
+                                   ukuran fix seperti 120px atu sebagai nya dan juga dapat di beri value contain yaitu gambar akan memililki ukuran yang sesuai dengan konten nya dan cover yaitu gamber akan mengikuti ukuran pembungkus sehingga membuat gambar memnuhi isi dari pembungkus
+
+
+!note: properti bisa menggunakan short hand seperti background: url() no-repeat top left cover;
+~~~ selesai ~~~

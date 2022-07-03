@@ -1,0 +1,17 @@
+body{
+    background: url(img/bg.png) repeat;
+    background-size: 500px 300px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    color: #ff1d16;
+    text-shadow: -5px -3px rgba(0, 0, 0, .4), -4px -2px rgba(0, 0, 0, .8), -2px -1px rgba(0, 0, 0, 1);
+    text-align: center;
+}
