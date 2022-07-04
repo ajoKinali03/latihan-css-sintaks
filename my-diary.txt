@@ -215,4 +215,10 @@
 
 !note: multiple column berguna untuk web responsif kusus teks dan bagus untuk meberikan informasi terpisah 
        atau khusus.
-~~~ selsai ~~~  
+~~~ selsai ~~~
+
+
+~~~ object-fit & object-position ~~~
+=> pertam object-fit berfungsi untuk mengatur kondisi gambar apakah mengikuti ukuan dari pembungkus atau    
+   hanya menampilkan yang bisa di tampilkan dan memtong bagian yang berlebih value(cover, contain, fill, scale-down). dan object-position berfungis untuk memnentukan posisi dari gambar dengan value berupa angka.
+~~~ selesai ~~~
