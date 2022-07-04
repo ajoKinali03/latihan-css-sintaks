@@ -222,3 +222,11 @@
 => pertam object-fit berfungsi untuk mengatur kondisi gambar apakah mengikuti ukuan dari pembungkus atau    
    hanya menampilkan yang bisa di tampilkan dan memtong bagian yang berlebih value(cover, contain, fill, scale-down). dan object-position berfungis untuk memnentukan posisi dari gambar dengan value berupa angka.
 ~~~ selesai ~~~
+
+
+~~~ css user interface ~~~
+=> css user interface  iailah kendali atas pengguna untuk gaya apda halaman web tanpa harus menggunakan kan 
+   codingan namun ini sifatnya sementra, user interface ini hanya lah mengubah ukuran dari suatu elemen dengan properti resize: vertical || horizontal || both;. namun properti resize saja tidak cukup untuk membuat nya berkerja haus di dukung oleh properti lain yaitu overflow: auto;, border(untuk meberikan batas pada elemen) dan padding untuk memberikan jarak antara border dan konten.
+
+!note: bagus di gunakan untuk elemen yang di harus kan untuk mengubah ukuran nya
+~~~ selesai ~~~

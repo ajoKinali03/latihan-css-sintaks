@@ -1,9 +1,12 @@
-img{
+.container{
     width: 400px;
-    height: 200px;
-    /* object-fit: contain; */
-    object-fit: cover;
-    /* object-fit: scale-down; */
-    /* object-fit: fill; */
-    object-position: 50% 50%;
+    height: 400px;
+    display: inline-block;
+    overflow: auto;
+    padding: 5px;
+    resize: both;
+    border: solid 2px black;
+    background-image: url(img/my\ eyes.jpg);
+    background-size: cover;
+    background-repeat: repeat;
 }
