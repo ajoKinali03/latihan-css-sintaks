@@ -199,3 +199,20 @@
 => tool tips adalah sebuah informasi pada suatu element atau konten, tool tips akan keluar seperti pop up 
    ketika kita cursor kita tepat berada pada suatu elemen, dan ini sangat berguna untuk mengetahui informasi sederhana namun penting.
 ~~~ selesai ~~~
+
+
+~~~ multiple column ~~~
+=> mulitiple column berfungsi untuk meberikan column pada teks, apabila sebuah pembungkus memiliki beberapa 
+   tag p pada html maka pembungkus yang memiliki properti column-count akan membuat colom sesuai dengan batas column yang di tentukan, atau properti column di berikan pada tag p tsb maka css akan otomatis mebuat kan kolom sesuai paragraf pada teks tsb.
+--> cara kerja: colomn-count -> column-count berguna untuk menentukan batas dari banyak kolom yang akan di 
+                                tentukan misal, jika column-count: 3; maka column maksimal yang akan di buat hanya tiga relative terhadap ukuran web browser jika ukuran dari ketiga column lebih besar dari web browser maka column akan di kurangi menjadi 2 column dan jika web browser lebih kecil dari column maka column akan tetap 3 column.
+                column-gap -> properti ini berfungsi untu memberikan jarak atau celah antara column.
+                colomn-width -> properti ini berfungsi untuk memberikan lebar pada column
+                column-rule -> memberikan garis batas antara column, column-rule memiliki 3 value yaitu style
+                               (dotted, solid, double), width(lebar dari garis batas), color(warna dari garis). contoh penulisan column-rule: 1px solid black;
+                colomn-span -> properti ini memiliki dua value none, value ini tidak memberikan pengaruh 
+                               pada column. all, value ini membuat column menjadi teks paragraf normal dan celuar dari grup column dan berpindah ke atas.
+
+!note: multiple column berguna untuk web responsif kusus teks dan bagus untuk meberikan informasi terpisah 
+       atau khusus.
+~~~ selsai ~~~  

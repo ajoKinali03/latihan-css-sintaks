@@ -1,49 +1,28 @@
+body{
+    background-color: rgb(254, 255, 244);
+}
+
+body > p{
+    color: rgb(187, 187, 187);
+}
+
+p{
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    font-family: sans-serif;
+}
 
 .container{
-    visibility: hidden;
-    position: absolute;
-    top: 30px;
-    left: 490px;
+    background-image: linear-gradient(rgb(255, 247, 213),  rgb(171, 231, 229));
+    padding: 10px;
+    outline: dotted 2px rgb(200, 200, 200);
+    column-count: 4; /* menentukan berapa kolom pada tekse */
+    column-gap: 10px; /* memberi jarak antara teks */
+    column-width: 200px; /* memberi lebar pada teks */
+    column-rule: 1px  solid rgb(70, 193, 255) ;/* untuk memberi style pada teks */
 }
 
-
-
-.text{
-    position: absolute;
-    z-index: 1;
-    left: 40px;
-    background-color: black;
-    border-radius: 15px;
-    width: 550px;
-    height: 300px;
-}
-
-.text p{
-    text-align: center;
-    font-size: 100px;
-    color: white;
-}
-
-.arrow{
-    border-radius: 5px;
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    top: 90px;
-    position: absolute;
-    z-index: 0;
-    transform: rotate(45deg);
-}
-
-
-
-.test{
-    font-size: 100px;
-    display: inline-block;
-}
-
-
-.big-container:hover .container{
-    visibility: visible;
-    color: red;
+.penjelasan{
+    font-size: 2em;
+    column-span: all; /* menjadikan teks tidak berkolom */
 }
