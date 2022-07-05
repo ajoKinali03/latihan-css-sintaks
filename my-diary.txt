@@ -230,3 +230,15 @@
 
 !note: bagus di gunakan untuk elemen yang di harus kan untuk mengubah ukuran nya
 ~~~ selesai ~~~
+
+
+
+~~~ css variabel ~~~
+=> css variabel adalah fitur di css yang dimana kita bisa membuat varibel kita sendiri dengan value apapun 
+   sehingga kita dapat melakukan pemanggilan untuk nilai yang kita ingin kan tanpa membeban kan css dengan menggunakan value value yang di gunakan secara berulang dan memiliki value yang sama.
+--> cara kerja: -> css variabel di awali dengan membuat selektor root agar bisa di akses oleh semua selektor 
+                   lain nya setelah itu buat di dalam root dengan tanda (dash) "--" dan setelah itu beri nama untuk variabel tsb cth(--ukuran-font) dan setelah itu isi value yang di inginkan cth( --ukuran-font: 3em;) jika selesai, panggil variabel didalam properti yang di ingin kan pada suatu selektor cth(font-size: --ukuran-font;).
+
+!note: css varibel sangat bermanfaat untuk meringankan beban css dan memudahkan untuk merubah value yang 
+       sama sehingga memudahkan perkerjaan.
+~~~ slesai ~~~
