@@ -1,3 +1,8 @@
+/* *{
+    outline: solid 3px green;
+} */
+
+
 :root{
     --main-color: rgb(42, 42, 42);
     --main-width: 100vw;
@@ -5,6 +10,17 @@
     --main-bg-color: rgba(255, 243, 213);
     font-size: 20px;
 }
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .header{
     display: flex;
@@ -23,11 +39,30 @@
 .header .profile{
     width: 200px;
     height: 200px;
-    background-color: var(--main-color);
+    background-color: rgb(255, 235, 206);
     border-radius: 50%;
-    opacity: .8;
+    opacity: .7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
 
+.header .profile .head{
+    transform: translateY(20px);
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.header .profile .body{
+    transform: translateY(30px);
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
 
 .header .profile-name{
     margin-top: 5px;
@@ -48,8 +83,31 @@
 }
 
 
+.container-content{
+    box-sizing: border-box;
+    padding: 0 8px;
+    margin: 0 5px;
+    border-left: dotted 2px rgb(181, 181, 181);
+    border-right: dotted 2px rgb(181, 181, 181);
+}
 
+.nav-bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgb(255, 218, 163);
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 80px;
+}
 
+.container-content .content{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9rem;
+}
 
 
 
