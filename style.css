@@ -1,28 +1,115 @@
 :root{
-    --color-text: rgb(233, 255, 190);
-    --bg-color: rgb(20, 20, 20);
-    --box-bg-color: rgb(34, 34, 34);
+    --main-color: rgb(42, 42, 42);
+    --main-width: 100vw;
+    --main-height: 100vh;
+    --main-bg-color: rgba(255, 243, 213);
+    font-size: 20px;
 }
 
-
-body{
-    background-color: var(--bg-color);
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-image: url(img/img-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    width: var(--main-width);
+    height: 400px;
+    background-color: black;
 }
 
-.container{
-    margin: calc(100vh / 3.5) 0;
-}
-
-p{
-    text-align: center;
-    color: var(--color-text);
-}
-
-.kotak{
-    margin: auto;
-    background-color: var(--box-bg-color);
+.header .profile{
     width: 200px;
     height: 200px;
-    text-align: center;
-    color: var(--color-text);
+    background-color: var(--main-color);
+    border-radius: 50%;
+    opacity: .8;
+}
+
+
+.header .profile-name{
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: var(--main-color);
+    font-size: 2rem;
+    background-color: var(--main-bg-color);
+    opacity: .5;
+}
+
+
+.header:hover .profile,.header:hover .profile-name{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
