@@ -1,5 +1,5 @@
 /* *{
-    outline: solid 3px green;
+    outline: solid 3px black;
 } */
 
 
@@ -9,6 +9,7 @@
     --main-height: 100vh;
     --main-bg-color: rgb(223, 255, 213);
     font-size: 20px;
+    color: rgb(55, 125, 55);
 }
 
 body{
@@ -31,9 +32,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 60%;
-    width: var(--main-width);
+    width: 100%;
     height: 400px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .header .profile{
@@ -104,14 +105,12 @@ body{
 }
 
 .nav-bar .list-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    padding-top: 10px;
+    column-count: 3;
+    column-rule: solid 1px green;
+    text-align: center;
 }
 
-.nav-bar .list-nav li{
-    margin-top: 10px;
-}
 
 .nav-bar .list-nav li a{
     text-decoration: none;
@@ -131,14 +130,44 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-size: .9rem;
-    color: var(--main-color);
+}
+
+.container-content .content h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.container-content .skill{
+    border-top:solid .8px green;
+    border-bottom:solid .8px green;
+    border-radius: 50px;
+    margin: 4rem;
+    column-count: 3;
+    column-rule: dotted 1px green;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container-content .skill div h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 
 
-
-
-
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(121, 187, 121);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
