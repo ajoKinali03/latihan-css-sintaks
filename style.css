@@ -33,7 +33,7 @@ body{
     background-size: cover;
     background-position: 0 60%;
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .header .profile{
@@ -169,18 +169,20 @@ body{
 
 
 @media screen and (max-width: 900px){
-    .header .profile{width: 90px; height: 90px;}
+    .header .profile{width: 100px; height: 100px;}
     .header .profile-name{font-size: .8rem;}
     .container-content .skill{column-count: 1;}
     .container-content .skill div{border-bottom: solid 1px green; padding-bottom: 20px;}
     .nav-bar{height: 40px;}
+    .header .profile, .header .profile-name{opacity: 1;}
 }
 
 @media screen and (max-width: 600px){
-    .header .profile{width: 40px; height: 40px;}
+    .header .profile{width: 90px; height: 90px;}
     .header .profile-name{font-size: .4rem;}
     .nav-bar{height: 35px;}
-    .header{background-size: fill}
+    .header{background-size: fill; height: 230px;}
+    .header .profile, .header .profile-name{opacity: 1;}
 }
 
 
