@@ -8,7 +8,7 @@
     --main-width: 100vw;
     --main-height: 100vh;
     --main-bg-color: rgb(223, 255, 213);
-    font-size: 20px;
+    font-size: calc(1vw + 10px);
     color: rgb(55, 125, 55);
 }
 
@@ -33,11 +33,11 @@ body{
     background-size: cover;
     background-position: 0 60%;
     width: 100%;
-    height: 400px;
-    /* background-color: black; */
+    /* height: 300px; */
 }
 
 .header .profile{
+    margin-top: 5vw;
     width: 130px;
     height: 130px;
     background-color: rgb(219, 255, 206);
@@ -66,6 +66,7 @@ body{
 }
 
 .header .profile-name{
+    margin-bottom: 5vw;
     margin-top: 5px;
     padding: 10px;
     box-sizing: border-box;
@@ -85,6 +86,7 @@ body{
 
 
 .container-content{
+    width: calc(var(--main-width) - 30px);
     box-sizing: border-box;
     padding: 0 8px;
     margin: 0 5px;
@@ -141,14 +143,10 @@ body{
 
 
 .container-content .skill{
-    border-top:solid .8px green;
-    border-bottom:solid .8px green;
-    border-radius: 50px;
     margin: 4rem;
     column-count: 3;
     column-rule: dotted 1px green;
     text-align: center;
-    padding: 20px 0;
 }
 
 .container-content .skill div h2{
@@ -156,7 +154,9 @@ body{
     margin-bottom: 10px;
 }
 
-
+.css, .javascript{
+    margin-top: 2rem;
+}
 
 .footer{
     width: 100%;
@@ -168,6 +168,22 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (max-width: 900px){
+    .header .profile{width: 90px; height: 90px;}
+    .header .profile-name{font-size: .8rem;}
+    .container-content .skill{column-count: 1;}
+    .container-content .skill div{border-bottom: solid 1px green; padding-bottom: 20px;}
+    .nav-bar{height: 40px;}
+}
+
+@media screen and (max-width: 600px){
+    .header .profile{width: 40px; height: 40px;}
+    .header .profile-name{font-size: .4rem;}
+    .nav-bar{height: 35px;}
+}
+
 
 
 
