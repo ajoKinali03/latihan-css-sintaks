@@ -242,3 +242,11 @@
 !note: css varibel sangat bermanfaat untuk meringankan beban css dan memudahkan untuk merubah value yang 
        sama sehingga memudahkan perkerjaan.
 ~~~ slesai ~~~
+
+
+
+
+~~~ salah satu fungsi value auto untuk properti width/height ~~~
+=> fungsi value auto pada height akan berjalan jika di gunakan pada tag img atau gamber yang akan terjadi 
+   adalah tinggi kontent akan menyesuaikai tinggi nya dengan lebar gamber tanpa merubah ukuran asli dari gambar dan akan sama terjadi jika di berikan pada lebar.
+~~~ selesai ~~~
